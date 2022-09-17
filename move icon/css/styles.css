@@ -1,0 +1,268 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #212121;
+}
+
+h2,
+li,
+p {
+  margin: 0;
+}
+
+.map-box
+{
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  border: 2px solid #259296;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: space-between;
+ 
+  opacity: 1;
+  transform: translate(-30%, -30%);
+}
+
+
+
+
+
+.conatact {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  border: 2px solid #259296;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: space-between;
+ 
+  opacity: 1;
+  transform: translate(-60%, -60%);
+}
+
+
+
+
+
+
+
+
+
+
+.map-box--decor{
+  width: 568px;
+  height: 458px; 
+  padding: 32px 59px;
+}
+.map__contacts{
+
+  border: 1px solid #f8d24e;
+  width: 468px;
+  height: 260px;
+  border-radius: 10px;
+  
+ 
+}
+/* .map__contacts::after{
+  content: "";
+  position: absolute;
+  width: 468px;
+  height: 260px;
+  background: rgba(248, 210, 78, 0.1);
+  border: 260px solid #84a178;
+} */
+
+/* .map__contact{
+  
+  width: 468px;
+  height: 260px;
+  
+  border: 3px solid #84a178;
+} */
+
+
+
+.contact--decor {
+  width: 568px;
+  height: 668px; 
+  padding: 32px 59px;
+ 
+}
+
+/* .backdrop.is-hidden {
+   opacity: 0;
+   pointer-events: none;
+ } */
+
+.modal-btn-close {
+  cursor: pointer;
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  border-radius: 15px;
+  top: 8px;
+  right: 8px;
+  border: 3px solid rgba(50, 237, 50, 0.1);
+  background: #ffffff;
+  justify-content: center;
+}
+
+.modal-btn-close__svgen-close {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition-duration: 250ms;
+  transition-property: border, fill;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Вікна для заповнення */
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.contact-franchise__coment,
+.contact-franchise__nametelemaelcontact {
+  display: inline;
+  margin: 0;
+  width: 368px;
+  height: 42px;
+  background: rgba(248, 210, 78, 0.1);
+  border: 1px solid #84a178;
+  border-radius: 10px;
+}
+/* падінг авто по щоб було поцентру */
+.contact-franchise__nametelemaelcontact--dekor {
+  margin-bottom: 16px;
+  padding-left: 16px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.contact-franchise__coment--dekor {
+  padding-left: 16px;
+  padding-top: 11px;
+  padding-bottom: auto;
+  margin-bottom: 32px;
+  width: 368px;
+  height: 84px;
+  resize: none;
+  
+}
+
+/* :not(:last-child) */
+/* Заголоовок */
+.conatact__title {
+  font-family: "Seymour One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.17;
+}
+.conatact__title--decor {
+  text-align: center;
+  max-width: 322px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #131313;
+  margin-bottom: 24px;
+}
+/* Текстовий блок */
+.conatact__paragraph {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 24px;
+}
+.conatact__paragraph--decor {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  max-width: 448px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #131313;
+  margin-bottom: 32px;
+}
+
+/* оформлення іконок */
+.contact-franchise__iconobox {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+/* .contact-franchise__iconobox::before {
+   content: "";
+   position: absolute;
+   display: block;
+   top: 50%;
+   left: 12px;
+   transform: translateY(-50%);
+   width: 18px;
+   height: 18px;
+ }  */
+/* .contact-franchise__iconobox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.iconoboxcontact-coment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.svgen-contat {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  transition-duration: 250ms;
+  transition-property: border, fill;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+.submitik-map,
+.submitik {
+  
+  width: 121px;
+  height: 42px;
+  left: 224px;
+  top: 594px;
+  background: #f8d24e;
+  border-radius: 10px;
+  border: none;
+  padding-left: auto;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  
+  align-items: center;
+  text-align: center;
+  
+  color: #131313;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.submitik-map{
+  display: flex;
+  cursor: pointer;
+  text-decoration:none;
+  padding-top: 10px;
+  padding-bottom: 13px;
+  justify-content: center;
+}
